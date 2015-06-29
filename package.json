@@ -4,15 +4,15 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "browserify": "^10.2.0",
+    "browserify": "^10.2.4",
     "express": "^4.12.3",
     "node-jsx": "^0.13.3",
     "react": "^0.13.3",
-    "react-engine": "^1.6.0",
-    "react-router": "^0.13.3",
+    "react-engine": "subuta/react-engine",
+    "react-router": "^1.0.0-beta2",
     "reactify": "^1.1.1",
-    "require-globify": "^1.2.0",
-    "watchify": "^3.2.1"
+    "require-globify": "^1.2.1",
+    "watchify": "^3.2.3"
   },
   "devDependencies": {},
   "scripts": {

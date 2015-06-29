@@ -8,8 +8,8 @@ var options = {
   viewResolver: function(viewName){
     return require('./views/' + viewName);
   }
-}
+};
 
 document.addEventListener('DOMContentLoaded', function onLoad(){
   Client.boot(options)
-})
+});
